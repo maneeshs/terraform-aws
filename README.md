@@ -1,5 +1,6 @@
 # terraform-aws
-This repository has Terraform IaC for CICD piepline. Terraform is used to create, manage, and update infrastructure resources on Cloud - AWS
+This repository has Terraform IaC for CICD piepline. Terraform is used to create, manage, and update infrastructure resources of CSPs like AWS and Azure.
+These Terraform files declare AWS resources
 
 Below are the steps to be followed for this deployment
 
