@@ -47,6 +47,8 @@ terraform workspaces new <Environment Name>
 
 
 
+
+
 Terraform Provider resources info:
 
 https://www.terraform.io/docs/providers/index.html
