@@ -21,7 +21,9 @@ Below are the steps to be followed for this deployment
 
 #Create an Ubuntu server and install/configure Apache web server
 
-Below are the commands which were used for provisioning resources.
+
+
+Below are the Terraform commands which were used for provisioning the above AWS resources.
 
 terraform init
 terraform plan
@@ -42,6 +44,7 @@ terraform destroy
 terraform destroy -target <resource_name>
 
 terraform workspaces new <Environment Name>
+
 
 
 Terraform Provider resources info:
