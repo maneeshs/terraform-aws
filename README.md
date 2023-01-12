@@ -30,25 +30,25 @@ Below are the steps to be followed for this deployment.
 
 
 
-Below are the Terraform commands which were used for provisioning the above AWS resources.
+Below are the Terraform commands which were used for provisioning the aforementioned AWS resources.
 
-terraform init
-terraform plan
-terraform apply
-terraform apply — auto-approve
+terraform init;
+terraform plan;
+terraform apply;
+terraform apply — auto-approve;
 
-terraform state list
-terraform state show xxxxxxxxx
+terraform state list;
+terraform state show xxxxxxxxx;
 
-terraform apply -target <resource_name>
-terraform apply -var “variable name=value”
-terraform apply -var-file “xxxxxx.tfvars”
+terraform apply -target <resource_name>;
+terraform apply -var “variable name=value”;
+terraform apply -var-file “xxxxxx.tfvars”;
 
-terraform output
-terraform refresh
+terraform output;
+terraform refresh;
 
-terraform destroy
-terraform destroy -target <resource_name>
+terraform destroy;
+terraform destroy -target <resource_name>;
 
 terraform workspaces new <Environment Name>
 
