@@ -1,6 +1,6 @@
 # terraform-iac
 This repository has Terraform IaC for CICD pipeline. Terraform is used to create, manage, and update infrastructure resources of CSPs like AWS and Azure.
-These Terraform files declare AWS resources
+These Terraform files declare AWS resources and terraform commands are used to deploy the infrastructure.
 
 
 
