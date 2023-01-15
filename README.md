@@ -48,10 +48,10 @@ terraform output;
 terraform refresh;
 
 terraform destroy;
-terraform destroy -target <resource_name>; # To destroy a specific target
+terraform destroy -target <resource_name>; # To destroy a specific resource
 terraform destroy -target aws_instance.web-server-instance
 
-terraform apply -target <resource_name>; # To create a specific target
+terraform apply -target <resource_name>; # To create a specific resource
 terraform apply -target aws_instance.web-server-instance  
 
 terraform workspaces new <Environment Name>
